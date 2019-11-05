@@ -1,7 +1,7 @@
 body {
 	color: rgb(65,75,86);
   font-family: arial;
-  margin: 0;
+  margin: 5;
 }
 
 div {
@@ -9,14 +9,14 @@ div {
   width: 100vw;
 }
 
-h1, h2 {
+h1, h2, h3 {
   text-align: center;
 }
 
 h1 {
   font-size: 5em;
 }
-h2 {
+h3 {
   font-size: 2.5em;
 }
 
@@ -39,26 +39,26 @@ a {
 
 ol {
   list-style: none;
-  padding: 0;
+  padding: 5;
   margin-bottom: 10%;
-  font-size: 3em;
+  font-size: 2em;
   display: flex;
-  justify-content: space-evenly;
 }
 
 li#lower {
-  margin-top: 7%;
+  margin-top: 0%;
 }
 
 li#lowest {
-  margin-top: 14%;
+  margin-top: 0%;
 }
 
 div.contrast {
-  background-color: rgb(0,0,0);
+  background-color: rgb(35,75,86);
   color: rgb(255,255,255);
+  font-size: 2em;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
 }
