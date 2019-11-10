@@ -9,7 +9,7 @@ div {
   width: 100vw;
 }
 
-h1, h2 {
+h1, h2, h3, h4 {
   text-align: center;
 }
 
@@ -20,6 +20,9 @@ h2 {
   font-size: 2.5em;
 }
 
+h3 {
+	font-size: 2em;
+}
 img {
   display: flex;
   margin: 0 auto;
@@ -27,12 +30,22 @@ img {
   border-radius: 130px;
 }
 
-p {
+p#1 {
   width: 40%;
   margin: 0 10vw 10vh 10vw;
   font-size: 2em;
 }
 
+p#info {
+	text-align: center;
+	font-size: 2em
+}
+
+p#recipes {
+	text-align: right;
+	margin: 0 10vw 10vh 10vw;
+	font-size: 3em;
+}
 a {
   color: rgb(0,0,0);
 }
@@ -45,7 +58,10 @@ ol {
   display: flex;
   justify-content: space-evenly;
 }
-
+ol#2 {
+	font-size: 10em;
+	text-align: center;
+}
 li#lower {
   margin-top: 7%;
 }
@@ -77,3 +93,7 @@ li:hover {
   font-size: 1.2em;
   transition: 0.6s ease;
 }
+div#Recipes {
+	align-items: center;
+	font-size: 0.5px;
+	transition: 0.6s ease;
